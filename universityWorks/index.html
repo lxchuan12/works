@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>罗小川的项目展示-页面基于bootstrap开发</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+	body {
+        padding-top: 50px;
+        padding-bottom: 40px;
+        color: #5a5a5a;
+    }
+    /* 轮播广告 */
+    .carousel {
+        height: 500px;
+        margin-bottom: 60px;
+    }
+    .carousel .item {
+        height: 500px;
+        background-color: #000;
+    }
+    .carousel .item img {
+        width: 100%;
+    }
+    .carousel-caption {
+        z-index: 10;
+    }
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 20px;
+        line-height: 1.8;
+    }
+    /* 简介 */
+    .summary {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .summary .col-md-4 {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .glyphicon-globe,.glyphicon-envelope,.glyphicon-print{
+        color: #2A6496;
+        font-size: 50px;
+    }
+    /* 特性 */
+    .feature-divider {
+        margin: 40px 0;
+    }
+    .feature {
+        padding: 30px 0;
+    }
+    .feature-heading {
+        font-size: 50px;
+        color: #2a6496;
+    }
+    .feature-heading .text-muted {
+        font-size: 28px;
+    }
+    /* 响应式布局 */
+    @media (max-width: 768px) {
+        .summary {
+            padding-right: 3px;
+            padding-left: 3px;
+        }
+        .carousel {
+            height: 300px;
+            margin-bottom: 30px;
+        }
+        .carousel .item {
+            height: 300px;
+        }
+        .carousel img {
+            min-height: 300px;
+        }
+        .carousel-caption p {
+            font-size: 16px;
+            line-height: 1.4;
+        }
+        .feature-heading {
+            font-size: 34px;
+        }
+        .feature-heading .text-muted {
+            font-size: 22px;
+        }
+    }
+    @media (min-width: 992px) {
+        .feature-heading {
+            margin-top: 120px;
+        }
+    }
+    </style>
+</head>
+<body>
+<!-- 顶部导航 -->
+	<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu-nav">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<a class="navbar-brand" href="#">项目展示</a>
+			</div>
+			<div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#ad-carousel">综述</a></li>
+                <li><a href="#summary-container">简述</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">项目 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#feature-tab" data-tab="tab-pro1">项目一</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-pro2">项目二</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-pro3">项目三</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-pro4">项目四</a></li>
+                        <li><a href="#feature-tab" data-tab="tab-pro5">项目五</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" data-toggle="modal" data-target="#about-modal">关于我</a></li>
+            </ul>
+        </div>
+		</div>
+	</div>
+<!-- /顶部导航 -->
+<!-- 广告轮播 -->
+<div id="ad-carousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#ad-carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#ad-carousel" data-slide-to="1"></li>
+        <li data-target="#ad-carousel" data-slide-to="2"></li>
+        <li data-target="#ad-carousel" data-slide-to="3"></li>
+        <li data-target="#ad-carousel" data-slide-to="4"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="item active">
+            <img src="images/pro_big_1.jpg" alt="1 slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>网易云课堂前端开发微专业大作业</h1>
+                    <p>第三期优秀学员。DOM操作，页面架构，产品前端架构等。使用PS切图，兼容ie8+，原生js ajax技术读取数据，操作cookie，登录弹窗，图片淡入淡出，选项卡，分页器，宽窄屏等功能。使用git命令方式上传到github。</p>
+                    <p><a class="btn btn-lg btn-primary" href="https://lxchuan12.github.io/Netease-Web" role="button" target="_blank">点击查看</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/pro_big_2.jpg" alt="2 slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>第二课堂管理系统</h1>
+                    <p>运用PHP+MySQL技术，使用CI框架MVC模式开发，并投入使用。主要实现了数据增删查改，jQuery，ajax联动菜单，通过发送邮件找回密码，二维数组求和统计成绩，PHPExcel导入导出数据等功能。</p>
+                    <p><a class="btn btn-lg btn-primary" href="http://t.pasp.cn/secondclassroom/" target="_blank" role="button">点击查看</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/pro_big_3.jpg" alt="3 slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>学工处网站</h1>
+                    <p>利用DIV+CSS布局，JavaScript，DOM操作，用jQuery实现三级菜单，图片轮播等功能。后台搭建讯时CMS，并上传到服务器，运行良好。</p>
+                    <p><a class="btn btn-lg btn-primary" href="http://xgc.jci.edu.cn/" target="_blank" role="button">点击查看</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/pro_big_4.jpg" alt="4 slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>设计学院网站</h1>
+                    <p>用HTML+CSS编写代码，并使用JS实现图片轮播等交互效果，与同学共同协作，后台搭建Asp迅时CMS，用FlashFXP工具上传到服务器。</p>
+                    <p><a class="btn btn-lg btn-primary" href="http://sjysxy.jci.edu.cn/" target="_blank" role="button">点击查看</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="images/pro_big_5.jpg" alt="5 slide">
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>时尚影楼</h1>
+                    <p>2014年，江西省网页制作大赛一等奖的作品</p>
+                    <p><a class="btn btn-lg btn-primary" href="https://lxchuan12.github.io/Fashion-Studio" target="_blank"  role="button">点击查看</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#ad-carousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control" href="#ad-carousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+<!-- /广告轮播 -->
+<div class="container summary">
+    <!-- 简介 -->
+    <div class="row" id="summary-container">
+        <div class="col-md-4">
+            <span class="glyphicon glyphicon-globe"></span>
+            <h2>大作业</h2>
+            <p>兼容ie8+，原生js ajax技术读取数据，操作cookie，登录弹窗，图片淡入淡出，选项卡，分页器，宽窄屏等功能。</p>
+            <p><a class="btn btn-default" href="https://lxchuan12.github.io/Netease-Web" role="button" target="_blank">点击查看</a></p>
+        </div>
+        <div class="col-md-4">
+            <span class="glyphicon glyphicon-envelope"></span>
+            <h2>第二课堂管理系统</h2>
+            <p>运用PHP+MySQL技术，使用CI框架MVC模式开发，并投入使用。</p>
+            <p><a class="btn btn-default" href="http://t.pasp.cn/secondclassroom/" role="button" target="_blank">点击查看</a></p>
+        </div>
+        <div class="col-md-4">
+            <span class="glyphicon glyphicon-print"></span>
+            <h2>学工处网站</h2>
+            <p>利用DIV+CSS布局，JavaScript，DOM操作，用jQuery实现三级菜单，图片轮播等功能。</p>
+            <p><a class="btn btn-default" href="http://xgc.jci.edu.cn/" role="button" target="_blank">点击查看</a></p>
+        </div>
+    </div>
+    <!-- /简介 -->
+    <!-- 特性 -->
+    <hr class="feature-divider">
+    <ul class="nav nav-tabs" role="tablist" id="feature-tab">
+        <li class="active"><a href="#tab-pro1" role="tab" data-toggle="tab">项目一</a></li>
+        <li><a href="#tab-pro2" role="tab" data-toggle="tab">项目二</a></li>
+        <li><a href="#tab-pro3" role="tab" data-toggle="tab">项目三</a></li>
+        <li><a href="#tab-pro4" role="tab" data-toggle="tab">项目四</a></li>
+        <li><a href="#tab-pro5" role="tab" data-toggle="tab">项目五</a></li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane active" id="tab-pro1">
+            <div class="row feature">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">微专业大作业
+                    <span class="text-muted">第三期优秀学员</span>
+                    </h2>
+                    <p class="lead">第三期优秀学员。DOM操作，页面架构，产品前端架构等。使用PS切图，兼容ie8+，原生js ajax技术读取数据，操作cookie，登录弹窗，图片淡入淡出，选项卡，分页器，宽窄屏等功能。使用git命令方式上传到github。</p>
+                </div>
+                <div class="col-md-5">
+                <a class="btn btn-lg btn-success" title="点击图片查看" href="https://lxchuan12.github.io/Netease-Web" role="button" target="_blank"><img class="feature-image img-responsive" src="images/pro_mid_1.jpg" alt="微专业大作业"></a>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-pro2">
+            <div class="row feature">
+                <div class="col-md-5">
+                	<a class="btn btn-lg btn-success" title="点击图片查看" href="http://t.pasp.cn/secondclassroom/" target="_blank" role="button"><img class="feature-image img-responsive" src="images/pro_mid_2.jpg" alt="第二课堂管理系统"></a>
+                </div>
+                <div class="col-md-7">
+                    <h2 class="feature-heading">第二课堂管理系统<span class="text-muted">PHP+MySQL</span>
+                    </h2>
+                    <p class="lead">运用PHP+MySQL技术，使用CI框架MVC模式开发，并投入使用。主要实现了数据增删查改，jQuery，ajax联动菜单，通过发送邮件找回密码，二维数组求和统计成绩，PHPExcel导入导出数据等功能。</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-pro3">
+            <div class="row feature">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">学工处网站<span class="text-muted">投入使用</span></h2>
+                    <p class="lead">利用DIV+CSS布局，JavaScript，DOM操作，用jQuery实现三级菜单，图片轮播等功能。后台搭建讯时CMS，并上传到服务器，运行良好。</p>
+                </div>
+                <div class="col-md-5">
+                	<a class="btn btn-lg btn-success" title="点击图片查看" href="http://xgc.jci.edu.cn/" target="_blank" role="button"><img class="feature-image img-responsive" src="images/pro_mid_3.jpg" alt="学工处网站"></a>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-pro4">
+            <div class="row feature">
+                <div class="col-md-5">
+                	<a class="btn btn-lg btn-success" title="点击图片查看" href="http://sjysxy.jci.edu.cn/" target="_blank" role="button"><img class="feature-image img-responsive" src="images/pro_mid_4.jpg" alt="设计学院网站"></a>
+                </div>
+                <div class="col-md-7">
+                    <h2 class="feature-heading">设计学院网站<span class="text-muted">投入使用</span>
+                    </h2>
+                    <p class="lead">用HTML+CSS编写代码，并使用JS实现图片轮播等交互效果，与同学共同协作，后台搭建Asp迅时CMS，用FlashFXP工具上传到服务器。</p>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane" id="tab-pro5">
+            <div class="row feature">
+                <div class="col-md-7">
+                    <h2 class="feature-heading">时尚影楼<span class="text-muted">比赛作品</span></h2>
+                    <p class="lead">2014年，江西省网页制作大赛一等奖的作品</p>
+                </div>
+                <div class="col-md-5">
+                	<a class="btn btn-lg btn-success" title="点击图片查看" href="https://lxchuan12.github.io/Fashion-Studio" target="_blank"  role="button"><img class="feature-image img-responsive" src="images/pro_mid_5.jpg" alt="时尚影楼"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /特性 -->
+    <!-- 关于 -->
+    <div class="modal fade" id="about-modal" tabindex="-1" role="dialog" aria-labelledby="modal-label"
+         aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">关闭</span>
+                    </button>
+                    <h4 class="modal-title" id="modal-label">关于我</h4>
+                </div>
+                <div class="modal-body">
+                    <p>有一年Web前端项目开发经验。有微信端开发经验。熟悉HTML5、CSS3、原生js、jQuery、zeptojs、Ajax、Bootstrap、sass、less、Angularjs、vuejs、git、gulp、webpack工具等。熟悉seajs模块化开发。熟悉PHP+MySQL，CI框架MVC模式开发。<br/>教育经历：景德镇陶瓷大学，2016届毕业本科生。求职意向：前端开发工程师。意向城市：杭州。电话：18267154723。邮箱：lxchuan12@163.com</p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">了解了</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /关于 -->
+    <footer>
+        <p class="pull-right"><a href="#top" class="btn btn-sm btn-success">回到顶部</a></p>
+        <p>&copy; 2016 @罗小川chuan<a href="https://github.com/lxchuan12" target="_blank" class="btn btn-md">github</a><a href="http://weibo.com/lxchuan12" target="_blank" class="btn btn-md">weibo</a></p>
+    </footer>
+</div>
+
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script>
+    $(function () {
+        $('#ad-carousel').carousel();
+        $('#menu-nav .navbar-collapse a').click(function (e) {
+            var href = $(this).attr('href');
+            var tabId = $(this).attr('data-tab');
+            if ('#' !== href) {
+                e.preventDefault();
+                $(document).scrollTop($(href).offset().top - 70);
+                if (tabId) {
+                    $('#feature-tab a[href=#' + tabId + ']').tab('show');
+                }
+            }
+        });
+    });
+</script>
+</body>
+</html>
