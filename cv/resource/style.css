@@ -14,8 +14,8 @@ a:visited {text-decoration:none;}
 .layer { }.ie { font-size: 1pt; }
 .ie body { font-size: 12em; }
 body{
+	padding:0;
 	margin:0;
-	paddding:0;
 	background:url(../resource/bg.jpg);
 }
 .stl_01 {
@@ -52,12 +52,12 @@ body{
 	height: 70.08334em;
 }
 @font-face {
-	font-family:"NSEJBT+MicrosoftYaHei";
-	src:url("71db8e4a-0000-0000-0000-000000000000.woff") format("woff");
+	font-family:"KVHAOW+MicrosoftYaHei";
+	src:url("e7ea53d1-0000-0000-0000-000000000000.woff") format("woff");
 }
 .stl_07 {
 	font-size: 0.83em;
-	font-family: "NSEJBT+MicrosoftYaHei";
+	font-family: "KVHAOW+MicrosoftYaHei";
 	color: #EFEFEF;
 }
 .stl_08 {
@@ -78,12 +78,12 @@ body{
 	letter-spacing: 0.0522px;
 }
 @font-face {
-	font-family:"QIBOEV+MicrosoftYaHei";
-	src:url("81e45a0e-0000-0000-0000-000000000000.woff") format("woff");
+	font-family:"SRVPDH+MicrosoftYaHei";
+	src:url("89d8d025-0000-0000-0000-000000000000.woff") format("woff");
 }
 .stl_11 {
 	font-size: 0.83em;
-	font-family: "QIBOEV+MicrosoftYaHei", "Times New Roman";
+	font-family: "SRVPDH+MicrosoftYaHei", "Times New Roman";
 	color: #EFEFEF;
 }
 .stl_12 {
@@ -102,355 +102,376 @@ body{
 }
 .stl_14 {
 	font-size: 1.83em;
-	font-family: "QIBOEV+MicrosoftYaHei", "Times New Roman";
+	font-family: "SRVPDH+MicrosoftYaHei", "Times New Roman";
 	color: #EFEFEF;
 }
 .stl_15 {
 	font-size: 1em;
-	font-family: "QIBOEV+MicrosoftYaHei", "Times New Roman";
+	font-family: "SRVPDH+MicrosoftYaHei", "Times New Roman";
 	color: #EFEFEF;
 }
 .stl_16 {
 	font-size: 0.88em;
-	font-family: "QIBOEV+MicrosoftYaHei", "Times New Roman";
+	font-family: "SRVPDH+MicrosoftYaHei", "Times New Roman";
 	color: #254665;
 }
 .stl_17 {
-	letter-spacing: -0.043em;
+	letter-spacing: -0.0408em;
 }
 
 .ie .stl_17 {
-	letter-spacing: -0.6061px;
+	letter-spacing: -0.574px;
 }
 .stl_18 {
 	font-size: 0.88em;
-	font-family: "NSEJBT+MicrosoftYaHei";
+	font-family: "KVHAOW+MicrosoftYaHei";
 	color: #254665;
 }
 .stl_19 {
-	letter-spacing: -0.0835em;
+	letter-spacing: -0.0302em;
 }
 
 .ie .stl_19 {
-	letter-spacing: -1.1759px;
+	letter-spacing: -0.4247px;
 }
 @font-face {
-	font-family:"GIABUP+MicrosoftYaHei-Bold";
-	src:url("33d423cd-0001-0000-0000-000000000000.woff") format("woff");
+	font-family:"NEKMWF+MicrosoftYaHei-Bold";
+	src:url("2d84c515-0001-0000-0000-000000000000.woff") format("woff");
 }
 .stl_20 {
 	font-size: 1em;
-	font-family: "GIABUP+MicrosoftYaHei-Bold", "Times New Roman";
+	font-family: "NEKMWF+MicrosoftYaHei-Bold", "Times New Roman";
 	color: #00B0F0;
 }
 .stl_21 {
-	letter-spacing: -0.0202em;
+	letter-spacing: -0.0198em;
 }
 
 .ie .stl_21 {
-	letter-spacing: -0.2845px;
+	letter-spacing: -0.2788px;
 }
 .stl_22 {
-	letter-spacing: -0.0043em;
-}
-
-.ie .stl_22 {
-	letter-spacing: -0.0607px;
-}
-.stl_23 {
-	font-size: 0.88em;
-	font-family: "GIABUP+MicrosoftYaHei-Bold", "Times New Roman";
-	color: #254665;
-}
-.stl_24 {
 	letter-spacing: -0.0042em;
 }
 
-.ie .stl_24 {
-	letter-spacing: -0.0587px;
+.ie .stl_22 {
+	letter-spacing: -0.0593px;
 }
-.stl_25 {
+.stl_23 {
+	font-size: 0.88em;
+	font-family: "NEKMWF+MicrosoftYaHei-Bold", "Times New Roman";
+	color: #254665;
+}
+.stl_24 {
 	letter-spacing: 0.0029em;
 }
 
-.ie .stl_25 {
+.ie .stl_24 {
 	letter-spacing: 0.0391px;
 }
-.stl_26 {
+.stl_25 {
 	letter-spacing: -0.0054em;
 }
 
-.ie .stl_26 {
+.ie .stl_25 {
 	letter-spacing: -0.0761px;
 }
-.stl_27 {
+.stl_26 {
 	font-size: 0.83em;
-	font-family: "GIABUP+MicrosoftYaHei-Bold", "Times New Roman";
+	font-family: "NEKMWF+MicrosoftYaHei-Bold", "Times New Roman";
 	color: #EFEFEF;
 }
-.stl_28 {
+.stl_27 {
 	letter-spacing: 0.002em;
 }
 
-.ie .stl_28 {
+.ie .stl_27 {
 	letter-spacing: 0.0267px;
 }
-@font-face {
-	font-family:"IHMDTQ+MicrosoftYaHei-Bold";
-	src:url("ab6d6c8d-0001-0000-0000-000000000000.woff") format("woff");
-}
-.stl_29 {
-	font-size: 1em;
-	font-family: "IHMDTQ+MicrosoftYaHei-Bold";
-	color: #00B0F0;
-}
-.stl_30 {
-	letter-spacing: -0.0037em;
-}
-
-.ie .stl_30 {
-	letter-spacing: -0.0599px;
-}
-.stl_31 {
+.stl_28 {
 	letter-spacing: -0.0049em;
 }
 
-.ie .stl_31 {
+.ie .stl_28 {
 	letter-spacing: -0.0686px;
 }
-.stl_32 {
+.stl_29 {
 	letter-spacing: -0.0034em;
 }
 
-.ie .stl_32 {
+.ie .stl_29 {
 	letter-spacing: -0.0482px;
 }
-.stl_33 {
+.stl_30 {
 	font-size: 0.88em;
-	font-family: "NSEJBT+MicrosoftYaHei";
+	font-family: "KVHAOW+MicrosoftYaHei";
 	color: #0563C1;
 }
+@font-face {
+	font-family:"INRCGK+MicrosoftYaHei-Bold";
+	src:url("462c187e-0001-0000-0000-000000000000.woff") format("woff");
+}
+.stl_31 {
+	font-size: 1em;
+	font-family: "INRCGK+MicrosoftYaHei-Bold";
+	color: #00B0F0;
+}
+.stl_32 {
+	letter-spacing: -0.0037em;
+}
+
+.ie .stl_32 {
+	letter-spacing: -0.0599px;
+}
+.stl_33 {
+	letter-spacing: -0.0052em;
+}
+
+.ie .stl_33 {
+	letter-spacing: -0.0726px;
+}
 .stl_34 {
-	letter-spacing: -0.005em;
+	letter-spacing: -0.0309em;
 }
 
 .ie .stl_34 {
-	letter-spacing: -0.0707px;
+	letter-spacing: -0.4345px;
 }
 .stl_35 {
-	letter-spacing: -0.0047em;
+	letter-spacing: -0.0259em;
 }
 
 .ie .stl_35 {
-	letter-spacing: -0.0664px;
+	letter-spacing: -0.3652px;
 }
 .stl_36 {
-	letter-spacing: -0.0023em;
-}
-
-.ie .stl_36 {
-	letter-spacing: -0.0322px;
-}
-.stl_37 {
-	font-size: 0.88em;
-	font-family: "IHMDTQ+MicrosoftYaHei-Bold";
-	color: #254665;
-}
-.stl_38 {
-	letter-spacing: -0.0062em;
-}
-
-.ie .stl_38 {
-	letter-spacing: -0.0869px;
-}
-.stl_39 {
 	letter-spacing: 0.0032em;
 }
 
-.ie .stl_39 {
+.ie .stl_36 {
 	letter-spacing: 0.0418px;
 }
-.stl_40 {
-	letter-spacing: -0.0048em;
+.stl_37 {
+	letter-spacing: -0.0023em;
 }
 
-.ie .stl_40 {
-	letter-spacing: -0.067px;
+.ie .stl_37 {
+	letter-spacing: -0.0322px;
 }
-.stl_41 {
+.stl_38 {
+	font-size: 0.88em;
+	font-family: "INRCGK+MicrosoftYaHei-Bold";
+	color: #254665;
+}
+.stl_39 {
+	letter-spacing: -0.0062em;
+}
+
+.ie .stl_39 {
+	letter-spacing: -0.0869px;
+}
+.stl_40 {
 	letter-spacing: 0.0025em;
 }
 
-.ie .stl_41 {
+.ie .stl_40 {
 	letter-spacing: 0.0334px;
 }
+.stl_41 {
+	letter-spacing: -0.005em;
+}
+
+.ie .stl_41 {
+	letter-spacing: -0.0705px;
+}
 .stl_42 {
-	letter-spacing: -0.0051em;
+	letter-spacing: -0.0207em;
 }
 
 .ie .stl_42 {
-	letter-spacing: -0.0712px;
+	letter-spacing: -0.2921px;
 }
 .stl_43 {
-	letter-spacing: -0.0033em;
+	letter-spacing: -0.0053em;
 }
 
 .ie .stl_43 {
-	letter-spacing: -0.046px;
+	letter-spacing: -0.074px;
 }
 .stl_44 {
-	letter-spacing: -0.003em;
+	letter-spacing: -0.0046em;
 }
 
 .ie .stl_44 {
-	letter-spacing: -0.0416px;
+	letter-spacing: -0.0653px;
 }
 .stl_45 {
-	letter-spacing: -0.0041em;
+	letter-spacing: -0.0048em;
 }
 
 .ie .stl_45 {
-	letter-spacing: -0.0582px;
+	letter-spacing: -0.0681px;
 }
 .stl_46 {
-	letter-spacing: -0.0373em;
+	letter-spacing: -0.0033em;
 }
 
 .ie .stl_46 {
-	letter-spacing: -0.5258px;
+	letter-spacing: -0.046px;
 }
 .stl_47 {
-	letter-spacing: 0.003em;
+	letter-spacing: -0.003em;
 }
 
 .ie .stl_47 {
-	letter-spacing: 0.0398px;
+	letter-spacing: -0.0416px;
 }
 .stl_48 {
-	letter-spacing: -0.0038em;
+	letter-spacing: -0.0041em;
 }
 
 .ie .stl_48 {
-	letter-spacing: -0.0533px;
+	letter-spacing: -0.0582px;
 }
 .stl_49 {
-	letter-spacing: -0.0058em;
+	letter-spacing: 0.003em;
 }
 
 .ie .stl_49 {
-	letter-spacing: -0.0818px;
+	letter-spacing: 0.0398px;
 }
 .stl_50 {
-	letter-spacing: 0.0042em;
+	letter-spacing: -0.0047em;
 }
 
 .ie .stl_50 {
-	letter-spacing: 0.0556px;
+	letter-spacing: -0.0658px;
 }
 .stl_51 {
-	letter-spacing: 0.0314em;
+	letter-spacing: -0.0038em;
 }
 
 .ie .stl_51 {
-	letter-spacing: 0.4415px;
+	letter-spacing: -0.0533px;
 }
 .stl_52 {
-	letter-spacing: -0.0221em;
+	letter-spacing: -0.0058em;
 }
 
 .ie .stl_52 {
-	letter-spacing: -0.3118px;
+	letter-spacing: -0.0818px;
 }
 .stl_53 {
-	font-size: 1em;
-	font-family: "GIABUP+MicrosoftYaHei-Bold", "Times New Roman";
-	color: #08B2F0;
+	letter-spacing: 0.0042em;
+}
+
+.ie .stl_53 {
+	letter-spacing: 0.0556px;
 }
 .stl_54 {
-	letter-spacing: -0.0004em;
+	letter-spacing: -0.0028em;
 }
 
 .ie .stl_54 {
-	letter-spacing: -0.0068px;
+	letter-spacing: -0.0391px;
 }
 .stl_55 {
 	font-size: 1em;
-	font-family: "IHMDTQ+MicrosoftYaHei-Bold";
+	font-family: "NEKMWF+MicrosoftYaHei-Bold", "Times New Roman";
 	color: #08B2F0;
 }
 .stl_56 {
-	letter-spacing: 0.0035em;
+	letter-spacing: -0.0004em;
 }
 
 .ie .stl_56 {
-	letter-spacing: 0.0469px;
+	letter-spacing: -0.0068px;
 }
 .stl_57 {
-	letter-spacing: 0.0028em;
-}
-
-.ie .stl_57 {
-	letter-spacing: 0.0376px;
+	font-size: 1em;
+	font-family: "INRCGK+MicrosoftYaHei-Bold";
+	color: #08B2F0;
 }
 .stl_58 {
-	letter-spacing: 0.0027em;
+	letter-spacing: 0.0035em;
 }
 
 .ie .stl_58 {
-	letter-spacing: 0.0359px;
+	letter-spacing: 0.0469px;
 }
 .stl_59 {
-	letter-spacing: -0.0216em;
+	letter-spacing: 0.0028em;
 }
 
 .ie .stl_59 {
-	letter-spacing: -0.304px;
+	letter-spacing: 0.0376px;
 }
 .stl_60 {
-	font-size: 0.83em;
-	font-family: "QIBOEV+MicrosoftYaHei", "Times New Roman";
-	color: #254665;
+	letter-spacing: 0.0027em;
+}
+
+.ie .stl_60 {
+	letter-spacing: 0.0359px;
 }
 .stl_61 {
-	letter-spacing: 0.0007em;
+	letter-spacing: -0.0216em;
 }
 
 .ie .stl_61 {
-	letter-spacing: 0.0093px;
+	letter-spacing: -0.304px;
 }
 .stl_62 {
-	font-size: 0.83em;
-	font-family: "GIABUP+MicrosoftYaHei-Bold", "Times New Roman";
-	color: #254665;
+	letter-spacing: -0.0051em;
+}
+
+.ie .stl_62 {
+	letter-spacing: -0.0714px;
 }
 .stl_63 {
 	font-size: 0.83em;
-	font-family: "NSEJBT+MicrosoftYaHei";
-	color: #0563C1;
-}
-.stl_64 {
-	font-size: 0.83em;
-	font-family: "NSEJBT+MicrosoftYaHei";
+	font-family: "SRVPDH+MicrosoftYaHei", "Times New Roman";
 	color: #254665;
 }
+.stl_64 {
+	letter-spacing: 0.0007em;
+}
+
+.ie .stl_64 {
+	letter-spacing: 0.0093px;
+}
 .stl_65 {
+	font-size: 0.83em;
+	font-family: "NEKMWF+MicrosoftYaHei-Bold", "Times New Roman";
+	color: #254665;
+}
+.stl_66 {
+	font-size: 0.83em;
+	font-family: "KVHAOW+MicrosoftYaHei";
+	color: #0563C1;
+}
+.stl_67 {
+	font-size: 0.83em;
+	font-family: "KVHAOW+MicrosoftYaHei";
+	color: #254665;
+}
+.stl_68 {
 	letter-spacing: 0.0009em;
 }
 
-.ie .stl_65 {
+.ie .stl_68 {
 	letter-spacing: 0.0115px;
 }
-.stl_66 {
+.stl_69 {
 	letter-spacing: -0.0001em;
 }
 
-.ie .stl_66 {
+.ie .stl_69 {
 	letter-spacing: -0.0009px;
 }
-.stl_67 {
+.stl_70 {
 	letter-spacing: -0.0235em;
 }
 
-.ie .stl_67 {
+.ie .stl_70 {
 	letter-spacing: -0.3304px;
 }
